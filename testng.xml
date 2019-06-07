@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation test">
+	<test name="Smoke testcases">
+
+		<packages>
+		<!--executing on the package level-->
+		<!-- <package name ="TestNGFiles"/> -->
+		<package name ="TestNGFiles2"/>
+		</packages>
+
+	</test> 
+</suite>

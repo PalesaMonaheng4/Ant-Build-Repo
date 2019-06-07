@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation test]">
+  <test thread-count="5" name="Smoke testcases(failed)">
+    <classes>
+      <class name="TestNGFiles2.Annotations">
+        <methods>
+          <include name="CookiesClose"/>
+          <include name="FlightBooking"/>
+          <include name="ReportEnding"/>
+          <include name="cookies"/>
+          <include name="UserIdGeneration"/>
+        </methods>
+      </class> <!-- TestNGFiles2.Annotations -->
+      <class name="TestNGFiles.DependancyAttributes">
+        <methods>
+          <include name="deinstallSoftware"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- TestNGFiles.DependancyAttributes -->
+    </classes>
+  </test> <!-- Smoke testcases(failed) -->
+</suite> <!-- Failed suite [Automation test] -->

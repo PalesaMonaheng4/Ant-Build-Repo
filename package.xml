@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation test">
+<test name="Smoke testcases">
+
+<classes>
+<!--executing on the class level-->
+	<class name ="TestNGFiles.Annot2"> </class>
+	<class name ="TestNGFiles.Annotations"> </class>
+
+</classes>
+</test>
+</suite>

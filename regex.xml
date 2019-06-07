@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation test">
+<test name="Smoke testcases">
+
+<packages>
+<!--executing on the packages with with similar names only works with grouping ]-->
+	<package name ="TestNGFiles.*"/>
+</packages>
+
+</test>
+</suite>
